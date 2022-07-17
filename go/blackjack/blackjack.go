@@ -5,20 +5,21 @@ type deck struct {
 }
 
 func newDeck() deck {
-	cards := make(map[string]int, 14)
-	cards["ace"] = 11
-	cards["two"] = 2
-	cards["three"] = 3
-	cards["four"] = 4
-	cards["five"] = 5
-	cards["six"] = 6
-	cards["seven"] = 7
-	cards["eight"] = 8
-	cards["nine"] = 9
-	cards["ten"] = 10
-	cards["jack"] = 10
-	cards["queen"] = 10
-	cards["king"] = 10
+	cards := map[string]int{
+		"ace" :11,
+		"two" :2,
+		"three" :3,
+		"four" :4,
+		"five" :5,
+		"six" :6,
+		"seven" :7,
+		"eight" :8,
+		"nine" :9,
+		"ten" :10,
+		"jack" :10,
+		"queen" :10,
+		"king" :10,
+	}
 	return deck{cards: cards}
 }
 

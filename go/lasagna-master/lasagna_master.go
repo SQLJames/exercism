@@ -1,4 +1,4 @@
-package lasagna
+package lasagnaMaster
 
 const (
 	PreperationTimePerLayerDefault = 2

@@ -1,3 +1,3 @@
-module lasagna
+module lasagnaMaster
 
 go 1.16
